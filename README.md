@@ -26,4 +26,10 @@ Two APIS were used in this project:
 
 React-Navigation:  For navigation purpose.
 
+## Screenshots
+
+<img src="./src/assets/1.jpg" height="550px" width="320px">
+
+<img src="./src/assets/2.jpg" height="550px" width="320px">
+
 
