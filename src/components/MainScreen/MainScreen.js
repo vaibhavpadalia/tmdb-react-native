@@ -45,9 +45,10 @@ class MainScreen extends Component {
 
   searchCallback = response => {
     if (response.results.length) {
-      this.setState({ noData: false })
+      this.setState({ noData: false });
       this.setState({ movieList: response.results });
     } else {
+      this.setState({ movieList: [] });
       this.setState({ noData: true });
     }
   };

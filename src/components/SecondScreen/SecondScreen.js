@@ -5,6 +5,11 @@ import { callRemoteMethod } from "../utilities/WebServiceHandler";
 import Loader from "../utilities/Loader";
 import Styles from "./Styles";
 
+/**
+ * @author Vaibhav Padalia
+ * @description This component shows detailed description about 
+ * a movie (id) that has been passed from previous component.
+ */
 class SecondScreen extends Component {
   static navigationOptions = {
     headerTitle: Constants.Strings.SECONDARY_TITLE,
@@ -12,8 +17,8 @@ class SecondScreen extends Component {
   };
 
   state = {
-    movieDetails: {},
-    isLoading: false
+    movieDetails: {}, // Will contain details about a particular movie. 
+    isLoading: false // Whether loader is to be shown
   };
 
   componentDidMount() {
